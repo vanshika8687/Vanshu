@@ -14,7 +14,7 @@ for name in files:
     pxt = Path(a.name)
     plugs = pxt.stem 
     
-    print(f"Loaded plugin: {plugs}")
+    prload_plug(plugs.replace(".py", ""))
 
 
     print("ERROR BOT STARTED & LOADED ALL PLUGINS")
